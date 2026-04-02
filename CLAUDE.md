@@ -33,9 +33,16 @@ A static educational website about Newfoundland & Labrador, built for **Central 
 
 ## Assets
 - `assets/images/` — 50+ images (jpg, webp, png)
-- `assets/videos/` — 5 videos: `puffins-video.mp4`, `kitchen-party.mp4`, `moose-size.mp4`, `giant-squid.mp4`, `msc-baltic.webm`
+- `assets/videos/` — 5 videos, all MP4, compressed to 720p CRF 30 for web: `puffins-video.mp4`, `kitchen-party.mp4`, `moose-size.mp4`, `giant-squid.mp4`, `msc-baltic.mp4`
 - `assets/fonts/` — Google Fonts (WOFF2) + Material Symbols, all local
 - `assets/tailwind.js` — 409KB compiled Tailwind runtime
+- If adding new videos, compress with: `ffmpeg -i input.mp4 -vf "scale=-2:720" -vcodec libx264 -crf 30 -preset medium -acodec aac -b:a 96k output.mp4`
+- GitHub hard limit is 100MB per file; keep videos well under that
+
+## Hosting
+- Hosted on GitHub Pages: **https://smearobe.github.io/multicultural-day-2026/**
+- Repo: **https://github.com/smearobe/multicultural-day-2026**
+- Temporary — take down after the school event by disabling Pages in repo settings or deleting the repo
 
 ## Important Context
 - Robert was born in Newfoundland & Labrador — content reflects genuine personal connection
