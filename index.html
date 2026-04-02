@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<title>Welcome to Newfoundland and Labrador!</title>
+<link rel="stylesheet" href="assets/fonts/plus-jakarta-sans.css"/>
+<link rel="stylesheet" href="assets/fonts/be-vietnam-pro.css"/>
+<link rel="stylesheet" href="assets/fonts/material-symbols.css"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="assets/tailwind.js"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "error-dim": "#9f0519",
+              "primary-fixed-dim": "#58acef",
+              "inverse-surface": "#100e05",
+              "on-tertiary-fixed-variant": "#790016",
+              "on-secondary-container": "#345a12",
+              "tertiary-fixed-dim": "#ff7a7b",
+              "primary-dim": "#005482",
+              "primary-fixed": "#67bafd",
+              "on-primary-fixed-variant": "#003f63",
+              "surface-container-highest": "#e4ddc5",
+              "surface-container-low": "#f8f0dc",
+              "secondary-container": "#bfee95",
+              "tertiary-container": "#ff9190",
+              "tertiary-fixed": "#ff9190",
+              "on-error": "#ffefee",
+              "surface": "#fdf6e3",
+              "on-tertiary": "#ffefee",
+              "outline-variant": "#b2ad9c",
+              "on-secondary-fixed": "#224600",
+              "on-error-container": "#570008",
+              "on-secondary": "#d7ffb2",
+              "primary": "#006094",
+              "secondary-dim": "#335912",
+              "surface-dim": "#dcd4bb",
+              "secondary-fixed": "#bfee95",
+              "surface-container": "#efe8d2",
+              "surface-tint": "#006094",
+              "on-secondary-fixed-variant": "#3d641c",
+              "primary-container": "#67bafd",
+              "on-tertiary-fixed": "#3a0006",
+              "outline": "#7b7767",
+              "error": "#b31b25",
+              "background": "#fdf6e3",
+              "surface-bright": "#fdf6e3",
+              "on-surface": "#322f22",
+              "error-container": "#fb5151",
+              "surface-container-high": "#eae2cb",
+              "tertiary-dim": "#a30021",
+              "surface-variant": "#e4ddc5",
+              "on-background": "#322f22",
+              "on-primary": "#ebf3ff",
+              "tertiary": "#b71029",
+              "secondary-fixed-dim": "#b1df88",
+              "secondary": "#3f661d",
+              "on-primary-fixed": "#001d31",
+              "on-surface-variant": "#5f5b4d",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-container": "#680011",
+              "inverse-primary": "#67bafd",
+              "on-primary-container": "#003655",
+              "inverse-on-surface": "#a29d8c"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .scrapbook-texture {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3Y%3Cfilter id='noiseFilter'%3Y%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="w-full sticky top-0 z-50 rounded-b-[2rem] bg-[#fdf6e3] dark:bg-[#322f22] shadow-sm">
+<nav class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-3 flex-shrink-0">
+<span class="text-xl font-extrabold text-[#006094] dark:text-[#67bafd] drop-shadow-sm font-headline leading-tight">Newfoundland<br/>and Labrador</span>
+</div>
+</div>
+<div class="hidden md:flex items-center space-x-8 font-['Plus_Jakarta_Sans'] font-bold text-lg tracking-tight">
+<a class="text-[#006094] border-b-4 border-[#b71029] pb-1 hover:scale-105 transition-transform duration-200" href="index.html">Home</a>
+<a class="text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="wildlife.html">Wildlife</a>
+<a class="text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="culture.html">Culture</a>
+<a class="text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="saintpierre.html">France</a>
+<a class="text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="funfacts.html">Folklore</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full hover:bg-surface-container transition-colors active:scale-95">
+
+</button>
+</div>
+</nav>
+</header>
+<main class="relative min-h-screen">
+<div class="absolute inset-0 scrapbook-texture pointer-events-none"></div>
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-8 pt-16 pb-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Welcome Content -->
+<div class="lg:col-span-7 flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 bg-secondary-fixed text-on-secondary-fixed px-6 py-2 rounded-full w-fit -rotate-2 shadow-sm">
+<span class="material-symbols-outlined text-xl" data-icon="celebration">celebration</span>
+<span class="font-headline font-bold">Central Public School Multicultural Night 2026!</span>
+</div>
+<h1 class="font-headline font-black text-6xl md:text-8xl text-primary leading-none tracking-tighter">
+                        Welcome to <br/>
+<span class="text-tertiary">Newfoundland <br/> &amp; Labrador!</span>
+</h1>
+<p class="text-xl md:text-2xl text-on-surface-variant max-w-xl leading-relaxed">
+                        From towering icebergs to foggy folklore, discover the magic of Canada's easternmost province.
+                    </p>
+<div class="mt-4">
+<button onclick="document.getElementById('puffin-modal').classList.remove('hidden');document.getElementById('puffin-modal').classList.add('flex')" class="bg-surface-container-highest text-on-surface px-10 py-5 rounded-full font-headline font-bold text-xl hover:scale-105 transition-all active:scale-95 border-2 border-transparent hover:border-outline-variant flex items-center gap-3">
+  <span class="material-symbols-outlined">play_circle</span> Watch the Puffins
+</button>
+</div>
+
+<!-- Puffin Video Modal -->
+<div class="hidden fixed inset-0 z-[100] items-center justify-center p-4 bg-on-surface/70 backdrop-blur-sm" id="puffin-modal" onclick="if(event.target===this){this.classList.add('hidden');this.classList.remove('flex');document.getElementById('puffin-video').pause()}">
+  <div class="bg-surface-container-low rounded-xl max-w-3xl w-full shadow-2xl overflow-hidden">
+    <div class="flex items-center justify-between px-6 py-4">
+      <h2 class="font-headline text-xl font-extrabold text-on-surface">Atlantic Puffins</h2>
+      <button onclick="document.getElementById('puffin-modal').classList.add('hidden');document.getElementById('puffin-modal').classList.remove('flex');document.getElementById('puffin-video').pause()" class="text-on-surface-variant hover:text-on-surface transition-colors p-1">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <video id="puffin-video" controls class="w-full" src="assets/videos/puffins-video.mp4"></video>
+  </div>
+</div>
+</div>
+<!-- Mascot & Visual Cluster -->
+<div class="lg:col-span-5 relative">
+<div class="relative w-full aspect-square bg-surface-container-low rounded-full overflow-hidden shadow-inner border-[12px] border-surface-container-highest">
+<img alt="Atlantic Puffin" class="w-full h-full object-cover" data-alt="vibrant atlantic puffin standing on a rocky cliff overlooking the blue ocean with soft morning sunlight" src="assets/images/puffins.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Map Section -->
+<section class="max-w-screen-2xl mx-auto px-8 py-16">
+<div class="bg-surface-container-low rounded-lg p-8 flex flex-col items-center gap-6">
+<h2 class="font-headline font-extrabold text-3xl text-primary text-center">Where in the World Are We?</h2>
+<p class="text-on-surface-variant text-center max-w-xl">Newfoundland and Labrador sits on the far eastern edge of Canada — the first place in North America to see the sunrise every morning.</p>
+<img src="assets/images/nl-map.svg" alt="Map of Newfoundland and Labrador within Canada" class="w-full max-w-2xl rounded-lg shadow-md"/>
+</div>
+</section>
+<!-- Province Facts -->
+<section class="max-w-screen-2xl mx-auto px-8 py-16">
+  <div class="bg-primary rounded-lg p-8 md:p-12 text-on-primary">
+    <h2 class="font-headline font-extrabold text-3xl mb-2">The Province at a Glance</h2>
+    <p class="opacity-80 mb-10 max-w-2xl">Everything you need to know about Canada's most easternmost province — from its people to its geography.</p>
+
+    <!-- Stat strip -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10">
+      <div class="bg-on-primary/10 rounded-lg p-5 text-center">
+        <p class="font-headline font-extrabold text-4xl mb-1">549,738</p>
+        <p class="text-sm opacity-80">People call it home</p>
+      </div>
+      <div class="bg-on-primary/10 rounded-lg p-5 text-center">
+        <p class="font-headline font-extrabold text-4xl mb-1">405,212</p>
+        <p class="text-sm opacity-80">km² in size — bigger than Japan!</p>
+      </div>
+      <div class="bg-on-primary/10 rounded-lg p-5 text-center">
+        <p class="font-headline font-extrabold text-4xl mb-1">7,000+</p>
+        <p class="text-sm opacity-80">Tiny islands in the province</p>
+      </div>
+      <div class="bg-on-primary/10 rounded-lg p-5 text-center">
+        <p class="font-headline font-extrabold text-4xl mb-1">1949</p>
+        <p class="text-sm opacity-80">Year it joined Canada — one of the newest!</p>
+      </div>
+    </div>
+
+    <!-- Detail grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-on-primary/10 rounded-lg p-6 space-y-2">
+        <p class="font-headline font-extrabold text-lg flex items-center gap-2"><span class="material-symbols-outlined">location_city</span> Capital City</p>
+        <p class="opacity-90">St. John's — the capital and largest city. About <strong>40% of everyone in the province</strong> lives there, making it one of the most concentrated capitals in Canada.</p>
+      </div>
+      <div class="bg-on-primary/10 rounded-lg p-6 space-y-2">
+        <p class="font-headline font-extrabold text-lg flex items-center gap-2"><span class="material-symbols-outlined">translate</span> Language</p>
+        <p class="opacity-90">English is spoken by <strong>97% of residents</strong> as their first language — making Newfoundland and Labrador the most linguistically unified province in all of Canada.</p>
+      </div>
+      <div class="bg-on-primary/10 rounded-lg p-6 space-y-2">
+        <p class="font-headline font-extrabold text-lg flex items-center gap-2"><span class="material-symbols-outlined">terrain</span> Two Regions</p>
+        <p class="opacity-90">The province has two parts: the <strong>island of Newfoundland</strong> in the Atlantic Ocean, and <strong>Labrador</strong> on the Canadian mainland — separated by the Strait of Belle Isle.</p>
+      </div>
+      <div class="bg-on-primary/10 rounded-lg p-6 space-y-2">
+        <p class="font-headline font-extrabold text-lg flex items-center gap-2"><span class="material-symbols-outlined">history</span> Joined Canada</p>
+        <p class="opacity-90">On <strong>March 31, 1949</strong>, Newfoundland became Canada's 10th province — joining by a very narrow vote. For a long time it was its own country!</p>
+      </div>
+      <div class="bg-on-primary/10 rounded-lg p-6 space-y-2">
+        <p class="font-headline font-extrabold text-lg flex items-center gap-2"><span class="material-symbols-outlined">phishing</span> Economy</p>
+        <p class="opacity-90">Fishing has been the heartbeat of the province for over 500 years. Today, <strong>oil and gas, mining, and tourism</strong> are also major parts of the economy.</p>
+      </div>
+      <div class="bg-on-primary/10 rounded-lg p-6 space-y-2">
+        <p class="font-headline font-extrabold text-lg flex items-center gap-2"><span class="material-symbols-outlined">sunny</span> First Sunrise</p>
+        <p class="opacity-90">Because it's Canada's <strong>easternmost province</strong>, Newfoundland and Labrador is the first place in all of North America to see the sun rise every single morning!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Melinda Fisher Photo -->
+<section class="max-w-screen-2xl mx-auto px-8 py-8">
+  <img src="assets/images/melindafisher.jpg" alt="Melinda" class="w-1/4 rounded-lg shadow-md object-cover mx-auto block"/>
+</section>
+
+<!-- Quote -->
+<section class="max-w-screen-2xl mx-auto px-8 py-16">
+  <blockquote class="text-center">
+    <p class="font-headline font-black text-3xl md:text-5xl text-tertiary leading-snug tracking-tight">"The fog here is thick enough to butter toast, but the people are as warm as a fresh batch of toutons!"</p>
+  </blockquote>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-[#e4ddc5] dark:bg-[#25231a] rounded-t-[3rem] mt-12">
+<div class="px-12 py-8 text-center space-y-3">
+<span class="font-body text-sm italic text-[#322f22] dark:text-[#fdf6e3] opacity-60">Created by the Smeatons</span>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<title>NL: Folklore</title>
+<link rel="stylesheet" href="assets/fonts/plus-jakarta-sans.css"/>
+<link rel="stylesheet" href="assets/fonts/be-vietnam-pro.css"/>
+<link rel="stylesheet" href="assets/fonts/material-symbols.css"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="assets/tailwind.js"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "error-dim": "#9f0519",
+              "primary-fixed-dim": "#58acef",
+              "inverse-surface": "#100e05",
+              "on-tertiary-fixed-variant": "#790016",
+              "on-secondary-container": "#345a12",
+              "tertiary-fixed-dim": "#ff7a7b",
+              "primary-dim": "#005482",
+              "primary-fixed": "#67bafd",
+              "on-primary-fixed-variant": "#003f63",
+              "surface-container-highest": "#e4ddc5",
+              "surface-container-low": "#f8f0dc",
+              "secondary-container": "#bfee95",
+              "tertiary-container": "#ff9190",
+              "tertiary-fixed": "#ff9190",
+              "on-error": "#ffefee",
+              "surface": "#fdf6e3",
+              "on-tertiary": "#ffefee",
+              "outline-variant": "#b2ad9c",
+              "on-secondary-fixed": "#224600",
+              "on-error-container": "#570008",
+              "on-secondary": "#d7ffb2",
+              "primary": "#006094",
+              "secondary-dim": "#335912",
+              "surface-dim": "#dcd4bb",
+              "secondary-fixed": "#bfee95",
+              "surface-container": "#efe8d2",
+              "surface-tint": "#006094",
+              "on-secondary-fixed-variant": "#3d641c",
+              "primary-container": "#67bafd",
+              "on-tertiary-fixed": "#3a0006",
+              "outline": "#7b7767",
+              "error": "#b31b25",
+              "background": "#fdf6e3",
+              "surface-bright": "#fdf6e3",
+              "on-surface": "#322f22",
+              "error-container": "#fb5151",
+              "surface-container-high": "#eae2cb",
+              "tertiary-dim": "#a30021",
+              "surface-variant": "#e4ddc5",
+              "on-background": "#322f22",
+              "on-primary": "#ebf3ff",
+              "tertiary": "#b71029",
+              "secondary-fixed-dim": "#b1df88",
+              "secondary": "#3f661d",
+              "on-primary-fixed": "#001d31",
+              "on-surface-variant": "#5f5b4d",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-container": "#680011",
+              "inverse-primary": "#67bafd",
+              "on-primary-container": "#003655",
+              "inverse-on-surface": "#a29d8c"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.scrapbook-texture {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")
+    }</style>
+</head>
+<body class="bg-surface font-body text-on-surface scrapbook-texture">
+<!-- Top Navigation -->
+<nav class="w-full sticky top-0 z-50 rounded-b-[2rem] bg-[#fdf6e3] dark:bg-[#322f22] shadow-sm">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-3 flex-shrink-0">
+<span class="text-xl font-extrabold text-[#006094] dark:text-[#67bafd] drop-shadow-sm font-headline leading-tight">Newfoundland<br/>and Labrador</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-headline font-bold text-lg tracking-tight text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="index.html">Home</a>
+<a class="font-headline font-bold text-lg tracking-tight text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="wildlife.html">Wildlife</a>
+<a class="font-headline font-bold text-lg tracking-tight text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="culture.html">Culture</a>
+<a class="font-headline font-bold text-lg tracking-tight text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="saintpierre.html">France</a>
+<a class="font-headline font-bold text-lg tracking-tight text-[#006094] border-b-4 border-[#b71029] pb-1 hover:scale-105 transition-transform duration-200" href="funfacts.html">Folklore</a>
+</div>
+
+</div>
+</nav>
+<main class="max-w-screen-2xl mx-auto px-6 md:px-12 py-12">
+<!-- Hero Section: The Folklore Header -->
+<header class="mb-16 text-center space-y-4">
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold text-primary tracking-tight">Whispers of the Coast</h1>
+<p class="text-xl text-on-surface-variant max-w-2xl mx-auto italic">Step into a world where the fog hides giants and the meadows belong to the Fair Folk.</p>
+</header>
+<!-- Bento Grid Layout for Stories -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Featured Story: The Giant Squid -->
+<section class="md:col-span-8 bg-surface-container-low rounded-lg p-8 md:p-12 relative overflow-hidden group shadow-sm transition-transform duration-200 hover:scale-[1.01]">
+<div class="relative z-10 space-y-6">
+<div class="inline-flex items-center gap-2 bg-tertiary-container text-on-tertiary-container px-4 py-1 rounded-full text-sm font-bold font-headline">
+                        LEGEND OF THE DEEP
+                    </div>
+<h2 class="font-headline text-4xl font-bold text-on-surface">The Beast of Glover's Harbour</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed max-w-xl">
+                        In 1878, a colossal creature was found on the shores of Newfoundland at a place called Thimble Tickle. The Giant Squid, or "Architeuthis," long thought to be a sailor's myth, became a reality. Reported at 55 feet long, these "Kraken" were said to drag entire boats beneath the waves during the thick Atlantic fog.
+                    </p>
+<button onclick="document.getElementById('squid-modal').classList.remove('hidden');document.getElementById('squid-modal').classList.add('flex')" class="bg-primary text-on-primary px-8 py-3 rounded-full font-bold hover:bg-primary-dim transition-all shadow-lg hover:scale-105 flex items-center gap-2">
+  <span class="material-symbols-outlined">play_circle</span> Learn more through a video!
+</button>
+</div>
+<div class="absolute right-[-10%] bottom-[-10%] opacity-20 group-hover:opacity-30 transition-opacity duration-500 transform group-hover:scale-110">
+<img alt="The Beast of Glover's Harbour" class="w-[400px] h-[400px] object-contain" src="assets/images/beast.jpg"/>
+</div>
+</section>
+<!-- Fun Fact: The Old Hag -->
+<section class="md:col-span-4 bg-surface-container-highest rounded-lg p-8 flex flex-col justify-between border-2 border-transparent hover:border-outline-variant transition-all duration-300">
+<div class="space-y-4">
+<h3 class="font-headline text-2xl font-bold">The Old Hag</h3>
+<p class="text-on-surface-variant italic">Ever woken up unable to move? Locals call it "being hag-ridden." Legend says an invisible spirit sits on your chest to keep you in bed!</p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 flex items-center justify-between">
+<span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Spook Factor: High</span>
+<div class="flex gap-1 text-tertiary">
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</section>
+<!-- Interactive Module: Fairy Circles -->
+<section class="md:col-span-4 bg-secondary-container rounded-lg overflow-hidden -rotate-1 shadow-md hover:rotate-0 transition-transform">
+<div class="h-48 overflow-hidden">
+<img src="assets/images/fairycircles.jpeg" alt="Fairy circles in Newfoundland" class="w-full h-full object-cover"/>
+</div>
+<div class="p-8 space-y-4">
+<h3 class="font-headline text-2xl font-bold text-on-secondary-container">Fairy Circles</h3>
+<p class="text-on-secondary-container">In the wild barrens, circles of mushrooms or stunted grass mark where the Little People dance. Don't step inside, or you might be "spirited away" for a hundred years!</p>
+<div class="bg-surface-container-lowest/50 p-4 rounded-lg">
+<p class="text-sm font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary" data-icon="lightbulb">lightbulb</span>
+                            PRO TIP: Carry bread in your pocket to stay safe!
+                        </p>
+</div>
+</div>
+</section>
+<!-- Photo Essay Style Card: Ghost Ships -->
+<section class="md:col-span-8 bg-surface-container-low rounded-lg overflow-hidden grid grid-cols-1 md:grid-cols-2 shadow-sm">
+<div class="h-64 md:h-full relative">
+<img alt="The Burning Ship" class="w-full h-full object-cover" src="assets/images/shipburning.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-r from-transparent to-surface-container-low"></div>
+</div>
+<div class="p-8 md:p-12 flex flex-col justify-center space-y-4">
+<div class="text-primary font-bold font-headline text-sm tracking-widest">MARITIME MYSTERY</div>
+<h3 class="font-headline text-3xl font-bold">The Burning Ship</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                        Fishermen in the Gulf of St. Lawrence still report seeing a three-masted schooner engulfed in flames that never sinks and never reaches the shore.
+                    </p>
+</div>
+</section>
+<!-- Folklore Trivia Pile -->
+<section class="md:col-span-12 grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
+<div class="bg-white rounded-lg shadow-[0_12px_32px_rgba(50,47,34,0.08)] transform rotate-2 hover:rotate-0 transition-all duration-300 overflow-hidden">
+<div class="h-36 overflow-hidden">
+<img src="assets/images/jackeylanterns.jpeg" alt="Jacky Lanterns" class="w-full h-full object-cover"/>
+</div>
+<div class="p-6">
+<p class="font-bold">Jacky Lanterns</p>
+<p class="text-sm text-on-surface-variant">Floating lights in the marshes that lead weary travelers off the path and into the bogs.</p>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-[0_12px_32px_rgba(50,47,34,0.08)] transform -rotate-1 hover:rotate-0 transition-all duration-300 overflow-hidden">
+<div class="h-36 overflow-hidden">
+<img src="assets/images/greatauk.jpg" alt="The Great Auk" class="w-full h-full object-cover object-top"/>
+</div>
+<div class="p-6">
+<p class="font-bold">The Great Auk</p>
+<p class="text-sm text-on-surface-variant">The spirit of this extinct flightless bird is said to still guard the Funk Islands.</p>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-[0_12px_32px_rgba(50,47,34,0.08)] transform rotate-1 hover:rotate-0 transition-all duration-300 cursor-pointer group/mummers relative overflow-hidden" onclick="document.getElementById('mummers-modal').classList.remove('hidden'); document.getElementById('mummers-modal').classList.add('flex')">
+<div class="h-36 overflow-hidden">
+<img src="assets/images/mummers.jpeg" alt="Mummers" class="w-full h-full object-cover object-top group-hover/mummers:scale-105 transition-transform duration-500"/>
+</div>
+<div class="p-6">
+<p class="font-bold">Mummers</p>
+<p class="text-sm text-on-surface-variant">Disguised strangers who visit homes at Christmas, dancing and playing tricks until they're guessed!</p>
+<span class="absolute bottom-3 right-3 material-symbols-outlined text-sm text-outline opacity-60 group-hover/mummers:opacity-100 group-hover/mummers:text-primary transition-all" data-icon="touch_app">touch_app</span>
+</div>
+</div>
+
+<!-- Mummers Modal -->
+<div class="hidden fixed inset-0 z-[100] items-center justify-center p-4 bg-on-surface/50 backdrop-blur-sm" id="mummers-modal" onclick="if(event.target===this){this.classList.add('hidden');this.classList.remove('flex')}">
+  <div class="bg-surface-container-low rounded-xl max-w-lg w-full p-8 shadow-2xl relative overflow-hidden">
+    <!-- Decorative background icon -->
+    <span class="absolute -bottom-4 -right-4 material-symbols-outlined text-[12rem] opacity-5 text-secondary select-none" data-icon="masks">masks</span>
+    <!-- Header -->
+    <div class="flex items-start justify-between mb-6">
+      <div class="space-y-1">
+        <div class="inline-flex items-center gap-2 bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-xs font-bold font-headline uppercase tracking-wider">
+          Christmas Tradition
+        </div>
+        <h2 class="font-headline text-3xl font-extrabold text-on-surface">The Mummers</h2>
+      </div>
+      <button class="text-on-surface-variant hover:text-on-surface transition-colors p-1" onclick="document.getElementById('mummers-modal').classList.add('hidden');document.getElementById('mummers-modal').classList.remove('flex')">
+        <span class="material-symbols-outlined" data-icon="close">close</span>
+      </button>
+    </div>
+    <!-- Facts list -->
+    <ul class="list-disc list-outside ml-5 space-y-3 relative z-10">
+      <li class="text-on-surface-variant leading-snug"><strong class="text-on-surface">Disguise everything — even your voice!</strong> Mummers speak in high squeaky voices called <em>"mummers talk"</em> so neighbours can't recognise them.</li>
+      <li class="text-on-surface-variant leading-snug"><strong class="text-on-surface">Wear your clothes backwards.</strong> Inside-out clothes, wigs, pillows stuffed under shirts, and painted faces were all fair game to throw people off.</li>
+      <li class="text-on-surface-variant leading-snug"><strong class="text-on-surface">It was once illegal!</strong> In 1861 Newfoundland passed a law banning mummering after a murder by disguised mummers caused a panic. The ban was eventually lifted.</li>
+      <li class="text-on-surface-variant leading-snug"><strong class="text-on-surface">Guess right and earn a treat.</strong> Homeowners had to figure out who the mummers were — once guessed, the mummers revealed themselves and everyone shared food and drinks.</li>
+      <li class="text-on-surface-variant leading-snug"><strong class="text-on-surface">It came from across the ocean.</strong> Mummering started in medieval Britain and Ireland — Irish and English settlers brought it to Newfoundland over 400 years ago, and Newfoundland kept it alive long after the rest of the world forgot it!</li>
+    </ul>
+    <!-- Footer button -->
+    <button class="mt-8 w-full bg-secondary text-on-secondary py-3 rounded-full font-bold font-headline hover:bg-secondary-dim transition-all hover:scale-[1.02] active:scale-95" onclick="document.getElementById('mummers-modal').classList.add('hidden');document.getElementById('mummers-modal').classList.remove('flex')">
+      Close
+    </button>
+  </div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer Section -->
+<footer class="w-full bg-[#e4ddc5] dark:bg-[#25231a] rounded-t-[3rem] mt-12">
+<div class="px-12 py-8 text-center">
+<span class="font-body text-sm italic text-[#322f22] dark:text-[#fdf6e3]">Created by the Smeatons</span>
+</div>
+</footer>
+<!-- Giant Squid Video Modal -->
+<div class="hidden fixed inset-0 z-[100] items-center justify-center p-4 bg-on-surface/70 backdrop-blur-sm" id="squid-modal" onclick="if(event.target===this){this.classList.add('hidden');this.classList.remove('flex');document.getElementById('squid-video').pause()}">
+  <div class="bg-surface-container-low rounded-xl max-w-lg w-full shadow-2xl overflow-hidden">
+    <div class="flex items-center justify-between px-6 py-4">
+      <h2 class="font-headline text-xl font-extrabold text-on-surface">The Giant Squid</h2>
+      <button onclick="document.getElementById('squid-modal').classList.add('hidden');document.getElementById('squid-modal').classList.remove('flex');document.getElementById('squid-video').pause()" class="text-on-surface-variant hover:text-on-surface transition-colors p-1">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <video id="squid-video" controls class="w-full" src="assets/videos/giant-squid.mp4"></video>
+  </div>
+</div>
+</body></html>

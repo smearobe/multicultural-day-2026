@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<title>NL: Culture</title>
+<link rel="stylesheet" href="assets/fonts/plus-jakarta-sans.css"/>
+<link rel="stylesheet" href="assets/fonts/be-vietnam-pro.css"/>
+<link rel="stylesheet" href="assets/fonts/material-symbols.css"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="assets/tailwind.js"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "error-dim": "#9f0519",
+              "primary-fixed-dim": "#58acef",
+              "inverse-surface": "#100e05",
+              "on-tertiary-fixed-variant": "#790016",
+              "on-secondary-container": "#345a12",
+              "tertiary-fixed-dim": "#ff7a7b",
+              "primary-dim": "#005482",
+              "primary-fixed": "#67bafd",
+              "on-primary-fixed-variant": "#003f63",
+              "surface-container-highest": "#e4ddc5",
+              "surface-container-low": "#f8f0dc",
+              "secondary-container": "#bfee95",
+              "tertiary-container": "#ff9190",
+              "tertiary-fixed": "#ff9190",
+              "on-error": "#ffefee",
+              "surface": "#fdf6e3",
+              "on-tertiary": "#ffefee",
+              "outline-variant": "#b2ad9c",
+              "on-secondary-fixed": "#224600",
+              "on-error-container": "#570008",
+              "on-secondary": "#d7ffb2",
+              "primary": "#006094",
+              "secondary-dim": "#335912",
+              "surface-dim": "#dcd4bb",
+              "secondary-fixed": "#bfee95",
+              "surface-container": "#efe8d2",
+              "surface-tint": "#006094",
+              "on-secondary-fixed-variant": "#3d641c",
+              "primary-container": "#67bafd",
+              "on-tertiary-fixed": "#3a0006",
+              "outline": "#7b7767",
+              "error": "#b31b25",
+              "background": "#fdf6e3",
+              "surface-bright": "#fdf6e3",
+              "on-surface": "#322f22",
+              "error-container": "#fb5151",
+              "surface-container-high": "#eae2cb",
+              "tertiary-dim": "#a30021",
+              "surface-variant": "#e4ddc5",
+              "on-background": "#322f22",
+              "on-primary": "#ebf3ff",
+              "tertiary": "#b71029",
+              "secondary-fixed-dim": "#b1df88",
+              "secondary": "#3f661d",
+              "on-primary-fixed": "#001d31",
+              "on-surface-variant": "#5f5b4d",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-container": "#680011",
+              "inverse-primary": "#67bafd",
+              "on-primary-container": "#003655",
+              "inverse-on-surface": "#a29d8c"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+      }
+      .scrapbook-texture {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        opacity: 0.03;
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav class="w-full sticky top-0 z-50 rounded-b-[2rem] bg-[#fdf6e3] dark:bg-[#322f22] bg-[#f8f0dc] dark:bg-[#3f3b2d] shadow-sm">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-3 flex-shrink-0">
+<span class="text-xl font-extrabold text-[#006094] dark:text-[#67bafd] drop-shadow-sm font-headline leading-tight">Newfoundland<br/>and Labrador</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Plus_Jakarta_Sans'] font-bold text-lg tracking-tight text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="index.html">Home</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold text-lg tracking-tight text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="wildlife.html">Wildlife</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold text-lg tracking-tight text-[#006094] border-b-4 border-[#b71029] pb-1 hover:scale-105 transition-transform duration-200" href="culture.html">Culture</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold text-lg tracking-tight text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="saintpierre.html">France</a>
+<a class="font-['Plus_Jakarta_Sans'] font-bold text-lg tracking-tight text-[#5f5b4d] hover:text-[#006094] hover:scale-105 transition-transform duration-200" href="funfacts.html">Folklore</a>
+</div>
+
+</div>
+</nav>
+<!-- SideNavBar (Mobile/Hidden by logic default, shown for structure) -->
+<aside class="fixed left-0 top-0 h-screen w-64 z-40 hidden md:flex flex-col bg-[#fdf6e3] dark:bg-[#322f22] h-full rounded-r-[2.5rem] shadow-[12px_0_32px_rgba(50,47,34,0.08)] pointer-events-none opacity-0">
+<!-- Hidden as per shell instructions for desktop top-row layout, but kept as blueprint -->
+</aside>
+<main class="relative min-h-screen px-4 md:px-12 py-8 max-w-7xl mx-auto">
+<div class="absolute inset-0 scrapbook-texture pointer-events-none"></div>
+<!-- Hero Section: Life by the Sea -->
+<header class="relative mb-20">
+<div class="flex flex-col md:flex-row items-center gap-12">
+<div class="w-full md:w-1/2 space-y-6">
+<div class="inline-block px-4 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label font-bold text-sm tracking-widest uppercase">
+                        Our Coastal Heritage
+                    </div>
+<h1 class="font-headline font-extrabold text-5xl md:text-7xl text-on-surface leading-tight">
+                        Life by the <span class="text-primary italic">Salty</span> Sea
+                    </h1>
+<p class="text-xl text-on-surface-variant max-w-lg leading-relaxed font-body italic">
+                        "The ocean doesn't just surround us; it defines us. From the rhythm of the waves to the echo of the fiddle."
+                    </p>
+</div>
+<div class="w-full md:w-1/2 relative">
+<div class="bg-surface-container-highest rounded-lg p-4 rotate-2 shadow-xl overflow-hidden aspect-video">
+<img alt="Dad and Melinda at Jellybean Row" class="w-full h-full object-cover rounded-lg" src="assets/images/dadmelindajelly.jpg"/>
+</div>
+<button onclick="document.getElementById('jellybean-modal').style.display='flex'" class="absolute -bottom-6 -left-6 bg-tertiary text-on-tertiary p-6 rounded-lg -rotate-3 shadow-2xl hidden md:flex flex-col items-center cursor-pointer hover:scale-105 active:scale-95 transition-all border-4 border-on-tertiary/30 hover:border-on-tertiary/60">
+<span class="material-symbols-outlined text-4xl mb-2">home</span>
+<p class="font-bold">Jelly Bean Houses</p>
+<p class="text-xs opacity-80 mt-1">Tap to learn more!</p>
+</button>
+</div>
+</div>
+</header>
+<!-- Jellybean Houses Modal -->
+<div style="display:none" class="fixed inset-0 z-[100] items-center justify-center p-4 bg-on-surface/70 backdrop-blur-sm" id="jellybean-modal" onclick="if(event.target===this){this.style.display='none'}">
+  <div class="bg-surface-container-low rounded-xl max-w-2xl w-full shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
+    <div class="h-56 overflow-hidden flex-shrink-0 relative">
+      <img src="assets/images/jellybean.jpg" alt="Jellybean Row Houses in St. John's" class="w-full h-full object-cover"/>
+      <div class="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent"></div>
+    </div>
+    <div class="flex items-start justify-between px-6 pt-4 flex-shrink-0">
+      <div>
+        <div class="inline-flex items-center gap-2 bg-tertiary-container text-on-tertiary-container px-3 py-1 rounded-full text-xs font-bold font-headline uppercase tracking-wider mb-1">St. John's Icon</div>
+        <h2 class="font-headline text-2xl font-extrabold text-on-surface">Jelly Bean Row Houses</h2>
+      </div>
+      <button onclick="document.getElementById('jellybean-modal').style.display='none'" class="text-on-surface-variant hover:text-on-surface transition-colors p-1 flex-shrink-0">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <div class="overflow-y-auto px-6 py-4 space-y-4">
+      <p class="text-on-surface-variant leading-relaxed">Jelly Bean Row Houses are one of the most recognisable sights in all of Canada — vibrantly painted Victorian townhouses lining the steep, colourful streets of downtown St. John's. Pink, blue, yellow, green — no two are alike, and that's exactly the point!</p>
+      <ul class="list-disc list-outside ml-5 space-y-2 text-on-surface-variant text-sm">
+        <li><strong class="text-on-surface">Location:</strong> Found along Queen's Road, Gower Street, and Duckworth Street in downtown St. John's — best explored on foot.</li>
+        <li><strong class="text-on-surface">Why so colourful?</strong> Legend has it the houses were painted in bright, contrasting colours so fishermen could spot their homes through Newfoundland's famously thick fog!</li>
+        <li><strong class="text-on-surface">Born from disaster:</strong> Many were built after the Great Fire of 1892 burned down much of the city. The tradition of painting them vividly became a lasting part of St. John's character.</li>
+        <li><strong class="text-on-surface">Victorian style:</strong> Narrow wooden clapboard siding, white trim, mansard roofs, and multiple stories — they look like a row of candies lined up on a shelf.</li>
+        <li><strong class="text-on-surface">Spread across the province:</strong> The colourful tradition didn't stay in St. John's — fishing sheds and homes in outport communities across Newfoundland are painted the same vivid hues.</li>
+      </ul>
+    </div>
+    <div class="px-6 py-4 border-t border-outline-variant/20 flex-shrink-0">
+      <button onclick="document.getElementById('jellybean-modal').style.display='none'" class="w-full bg-tertiary text-on-tertiary py-3 rounded-full font-bold font-headline hover:bg-tertiary-dim transition-all hover:scale-[1.02] active:scale-95">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Bento Grid: Stories & Objects -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-20">
+<!-- Kitchen Parties Card -->
+<div class="md:col-span-12 bg-surface-container-low rounded-lg p-8 md:p-12 relative overflow-hidden group shadow-sm">
+<div class="flex flex-col md:flex-row gap-10 items-center relative z-10">
+  <div class="md:w-1/2 space-y-6">
+    <div class="inline-flex items-center gap-2 bg-secondary-fixed text-on-secondary-fixed px-4 py-1 rounded-full text-sm font-bold font-headline">
+      <span class="material-symbols-outlined text-sm">music_note</span> A Newfoundland Tradition
+    </div>
+    <h2 class="font-headline font-bold text-4xl text-on-surface">Kitchen Parties</h2>
+    <p class="text-on-surface-variant leading-relaxed">Imagine crowding into someone’s warm kitchen on a Saturday night — fiddles playing, feet stomping, voices singing. That’s a Newfoundland kitchen party! It’s one of the most beloved traditions on the island, where music, dancing, and good company come together spontaneously in the most unlikely of venues.</p>
+    <p class="text-on-surface-variant leading-relaxed">Like other folk traditions, Newfoundland music first evolved as a pastime shared among friends and co-workers. <strong class="text-on-surface">Jigs and reels</strong> were played for dancing. <strong class="text-on-surface">Shanties</strong> were matched to the rhythms of hard manual labour. <strong class="text-on-surface">Ballads</strong> were stories told to pass long winter evenings.</p>
+    <p class="text-on-surface-variant leading-relaxed">Over the past century the music grew far beyond the kitchen. Radio, television, and bands like <strong class="text-on-surface">Great Big Sea</strong> and <strong class="text-on-surface">Buddy Wasisname and the Other Fellers</strong> brought the sound to international audiences — while Saturday night jam sessions still unfold spontaneously in kitchens and basements around the province.</p>
+  </div>
+  <div class="md:w-1/2 rounded-lg overflow-hidden shadow-lg">
+    <img alt="Kitchen party in Newfoundland" src="assets/images/kitchenparty.jpg" class="w-full h-72 object-cover"/>
+  </div>
+</div>
+<div class="mt-8 space-y-4">
+  <button onclick="document.getElementById('kp-video').style.display='block';this.style.display='none';document.getElementById('kp-video').play()" class="bg-secondary text-on-secondary px-8 py-4 rounded-full font-headline font-bold hover:scale-105 active:scale-95 transition-all shadow-md flex items-center gap-2">
+    <span class="material-symbols-outlined">play_circle</span> Watch: Kitchen Parties
+  </button>
+  <video id="kp-video" controls style="display:none" class="w-full rounded-lg shadow-md" src="assets/videos/kitchen-party.mp4"></video>
+</div>
+</div>
+</section>
+
+<!-- The Newfoundland Flag -->
+<section class="bg-surface-container-highest rounded-xl p-1 md:p-12 mb-20 relative overflow-hidden">
+  <div class="bg-surface-container-high rounded-lg p-8 md:p-12 shadow-sm">
+    <h2 class="font-headline font-extrabold text-3xl text-primary text-center mb-10">The Newfoundland Flag</h2>
+    <div class="flex flex-col md:flex-row gap-10 items-center">
+      <div class="md:w-2/5 flex-shrink-0">
+        <img src="assets/images/nlflag.png" alt="Flag of Newfoundland and Labrador" class="w-full rounded-lg shadow-lg"/>
+        <p class="text-center text-sm text-on-surface-variant mt-3 italic">Designed by Christopher Pratt · Adopted June 24, 1980</p>
+      </div>
+      <div class="md:w-3/5 space-y-6">
+        <p class="text-on-surface-variant leading-relaxed">The flag of Newfoundland and Labrador was designed by celebrated Newfoundland artist <strong class="text-on-surface">Christopher Pratt</strong> and first flown on <strong class="text-on-surface">June 24, 1980</strong>. Its geometric design draws inspiration from traditional <strong class="text-on-surface">Beothuk and Innu decorative pendants</strong> — honouring the Indigenous peoples who called this land home long before anyone else.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-[#00529B] text-white rounded-lg p-4">
+            <p class="font-headline font-extrabold text-lg mb-1">Blue</p>
+            <p class="text-sm opacity-90">The sea, lakes, and rivers that surround and define the province</p>
+          </div>
+          <div class="bg-white border-2 border-outline-variant rounded-lg p-4">
+            <p class="font-headline font-extrabold text-lg mb-1 text-on-surface">White</p>
+            <p class="text-sm text-on-surface-variant">The snow and ice of Newfoundland and Labrador's long winters</p>
+          </div>
+          <div class="bg-[#CC0000] text-white rounded-lg p-4">
+            <p class="font-headline font-extrabold text-lg mb-1">Red</p>
+            <p class="text-sm opacity-90">Human effort — and the two regions of the province: the island of Newfoundland and mainland Labrador</p>
+          </div>
+          <div class="bg-[#F5C518] rounded-lg p-4">
+            <p class="font-headline font-extrabold text-lg mb-1 text-on-surface">Gold</p>
+            <p class="text-sm text-on-surface/80">The confidence of the people in themselves and their future — the golden arrow always points forward!</p>
+          </div>
+        </div>
+        <div class="bg-surface-container rounded-lg p-4">
+          <p class="text-sm text-on-surface-variant leading-relaxed"><strong class="text-on-surface">Fun fact:</strong> The red triangles and gold arrow together form a <strong class="text-on-surface">trident</strong> — a nod to the province's deep connection to the sea and fishing. When the flag is displayed vertically, the gold arrow becomes a sword honouring those who served in the military.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Snowballs Section -->
+<section class="bg-primary rounded-xl p-1 md:p-12 mb-20 relative overflow-hidden">
+<div class="bg-primary-container rounded-lg p-8 md:p-12 shadow-sm border-l-8 border-secondary">
+<div class="flex flex-col md:flex-row gap-8 items-start">
+<div class="md:w-2/3">
+<div class="inline-flex items-center gap-2 bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-sm font-bold font-headline mb-4">
+<span class="material-symbols-outlined text-sm">cookie</span> A Newfoundland Christmas Tradition
+</div>
+<h2 class="font-headline font-extrabold text-3xl mb-4 text-on-surface">Newfoundland Snowballs</h2>
+<p class="text-on-surface-variant leading-relaxed mb-6">
+Newfoundland Snowballs have been a tradition for decades! Like many on or from the Rock, Melinda's Nanny (grandmothers in Newfoundland are usually referred to as "Nanny", and grandfathers "Poppy") would whip up a batch of these every Christmas. Melinda's dad has decades of memories of these delicious treats!
+</p>
+<div class="mb-6 rounded-lg overflow-hidden shadow-md">
+<img src="assets/images/nanny.jpg" alt="Melinda's Nanny" class="w-full object-cover"/>
+</div>
+<button onclick="document.getElementById('snowballs-modal').classList.remove('hidden');document.getElementById('snowballs-modal').classList.add('flex')" class="inline-flex items-center gap-2 bg-secondary text-on-secondary px-6 py-3 rounded-full font-headline font-bold hover:scale-105 active:scale-95 transition-all shadow-md">
+<span class="material-symbols-outlined">menu_book</span> Get the recipe here!
+</button>
+</div>
+<div class="md:w-1/3 flex items-center justify-center">
+<div class="rounded-lg overflow-hidden shadow-lg rotate-1">
+<img src="assets/images/snowballs.webp" alt="Newfoundland Snowballs" class="w-full h-full object-cover"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Snowballs Recipe Modal -->
+<div class="hidden fixed inset-0 z-[100] items-center justify-center p-4 bg-on-surface/70 backdrop-blur-sm" id="snowballs-modal" onclick="if(event.target===this){this.classList.add('hidden');this.classList.remove('flex')}">
+  <div class="bg-surface-container-low rounded-xl max-w-2xl w-full shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
+    <!-- Header -->
+    <div class="flex items-start justify-between px-6 py-5 border-b border-outline-variant/20 flex-shrink-0 bg-secondary text-on-secondary">
+      <div>
+        <h2 class="font-headline text-2xl font-extrabold">Newfoundland Snowballs</h2>
+        <p class="text-sm opacity-80 mt-1">Makes about 4 dozen &nbsp;·&nbsp; A Christmas classic from the Rock</p>
+      </div>
+      <button onclick="document.getElementById('snowballs-modal').classList.add('hidden');document.getElementById('snowballs-modal').classList.remove('flex')" class="opacity-80 hover:opacity-100 transition-opacity p-1 flex-shrink-0">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <!-- Scrollable content -->
+    <div class="overflow-y-auto p-6 space-y-6">
+      <!-- Ingredients -->
+      <div>
+        <h3 class="font-headline font-extrabold text-lg text-on-surface mb-3 flex items-center gap-2">
+          <span class="material-symbols-outlined text-secondary">grocery</span> Ingredients
+        </h3>
+        <ul class="list-disc list-outside ml-5 space-y-1 text-on-surface-variant">
+          <li>3 cups sugar</li>
+          <li>¾ cup melted butter</li>
+          <li>1¼ cups milk</li>
+          <li>3 cups large rolled oats</li>
+          <li>1 cup unsweetened fine coconut</li>
+          <li>12 tbsp cocoa</li>
+          <li>1½ cups extra coconut (for rolling)</li>
+        </ul>
+      </div>
+      <!-- Instructions -->
+      <div>
+        <h3 class="font-headline font-extrabold text-lg text-on-surface mb-3 flex items-center gap-2">
+          <span class="material-symbols-outlined text-secondary">format_list_numbered</span> Instructions
+        </h3>
+        <ol class="list-decimal list-outside ml-5 space-y-3 text-on-surface-variant">
+          <li>In a large saucepan, combine the sugar, butter, and milk. <em>(This mixture will foam up while boiling, so a larger pot is recommended.)</em></li>
+          <li>Boil gently over medium heat for <strong class="text-on-surface">5–6 minutes</strong>, or until the mixture reaches 225–230°F on a candy thermometer. Don't start timing until the mixture is at a full rolling boil, and <strong class="text-on-surface">don't stir while it boils</strong>.</li>
+          <li>In a separate bowl, mix together the oats, 1 cup coconut, and cocoa.</li>
+          <li>Pour the boiled mixture into the dry ingredients and stir until well combined. <strong class="text-on-surface">Chill well in the fridge</strong> until firm enough to shape — the mixture will be very soft and sloppy while warm.</li>
+          <li>Let it cool to almost room temperature, then cover and <strong class="text-on-surface">refrigerate overnight</strong>. The next day it will be much easier to scoop and roll.</li>
+          <li>Roll into 1½-inch balls, then roll each ball in the extra coconut.</li>
+        </ol>
+      </div>
+      <!-- Storage tip -->
+      <div class="bg-secondary-container rounded-lg p-4">
+        <p class="text-on-secondary-container text-sm leading-relaxed"><strong>Storage tip:</strong> These should <em>always</em> be stored in the fridge to keep their soft, slightly chewy texture — they get too soft at room temperature. They freeze very well too!</p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="px-6 py-4 border-t border-outline-variant/20 flex-shrink-0">
+      <button onclick="document.getElementById('snowballs-modal').classList.add('hidden');document.getElementById('snowballs-modal').classList.remove('flex')" class="w-full bg-secondary text-on-secondary py-3 rounded-full font-bold font-headline hover:bg-secondary-dim transition-all hover:scale-[1.02] active:scale-95">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+<!-- Root Cellars Section -->
+<section class="bg-surface-container-low rounded-xl overflow-hidden mb-20 shadow-sm">
+  <div class="flex flex-col md:flex-row">
+    <div class="md:w-1/2 overflow-hidden">
+      <img src="assets/images/coldcellar.jpg" alt="Root cellar in Newfoundland" class="w-full h-full object-cover"/>
+    </div>
+    <div class="md:w-1/2 p-8 md:p-12 space-y-5">
+      <div class="inline-flex items-center gap-2 bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-sm font-bold font-headline">
+        <span class="material-symbols-outlined text-sm">storefront</span> Root Cellar Capital of the World
+      </div>
+      <h2 class="font-headline font-extrabold text-3xl text-on-surface">Elliston's Root Cellars</h2>
+      <p class="text-on-surface-variant leading-relaxed">Long before refrigerators, Newfoundlanders kept their food fresh the clever way — by tucking it into the earth. Root cellars are traditional storage structures built right into small hills and banks, using the ground's natural humidity to stay cool in summer and just warm enough to prevent freezing in winter.</p>
+      <p class="text-on-surface-variant leading-relaxed">The tiny community of <strong class="text-on-surface">Elliston</strong>, on the Bonavista Peninsula, is officially the <strong class="text-on-surface">Root Cellar Capital of the World</strong> — with over <strong class="text-on-surface">130 documented root cellars</strong> in and around the town. Half of them are still in working condition and used today!</p>
+      <ul class="list-disc list-outside ml-5 space-y-2 text-on-surface-variant text-sm">
+        <li>Each cellar takes <strong class="text-on-surface">3–4 weeks to build</strong> — neighbours, friends, and family all pitch in together</li>
+        <li>Many families <strong class="text-on-surface">share a cellar</strong>, making it a true community effort</li>
+        <li>Elliston also has the <strong class="text-on-surface">closest land-based puffin viewing site in North America</strong> — just a 5-minute walk!</li>
+        <li>Every September, the town hosts <strong class="text-on-surface">Roots, Rants and Roars</strong> — a food festival with a 5 km hike and stops to taste dishes made by award-winning chefs</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Moose Burgers Section -->
+<section class="bg-tertiary rounded-xl p-8 md:p-12 mb-20 text-on-tertiary">
+  <div class="flex flex-col md:flex-row gap-10 items-center">
+    <div class="md:w-1/2 space-y-4">
+      <div class="inline-flex items-center gap-2 bg-on-tertiary/20 px-4 py-1 rounded-full text-sm font-bold font-headline">
+        <span class="material-symbols-outlined text-sm">outdoor_grill</span> Wild Game Cuisine
+      </div>
+      <h2 class="font-headline font-extrabold text-3xl">Moose Burgers!</h2>
+      <p class="text-lg opacity-90 leading-relaxed">Move over cows, there's a new burger in town. Moose makes the perfect wild game burger that lets the flavour of the meat shine through.</p>
+    </div>
+    <div class="md:w-1/2 rounded-lg overflow-hidden shadow-xl rotate-1">
+      <img src="assets/images/mooseburger.jpg" alt="Moose Burger" class="w-full h-full object-cover"/>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="w-full bg-[#e4ddc5] dark:bg-[#25231a] rounded-t-[3rem] mt-12">
+<div class="px-12 py-8 text-center">
+<span class="font-body text-sm italic text-[#322f22] dark:text-[#fdf6e3]">Created by the Smeatons</span>
+</div>
+</footer>
+</body></html>
